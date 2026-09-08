@@ -1,16 +1,57 @@
-# React + Vite
+# 📸 Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive image gallery built with React and the Unsplash API. 
+The application dynamically fetches images from the API and displays them 
+in a clean grid layout with pagination.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📷 Screenshots
 
-## React Compiler
+### Gallery
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Image Gallery](./screenshots/gallery1.png)
 
-## Expanding the ESLint configuration
+### Pagination
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Image Gallery Pagination](./screenshots/gallery2.png)
+
+
+## ✨ Features
+
+- Fetches images dynamically from the Unsplash API
+- Displays images in a responsive grid
+- Pagination for browsing multiple pages of images
+- Displays photographer information
+- Dynamic rendering using React
+- Loading state while fetching data
+- Error handling for failed API requests
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- CSS
+- Unsplash REST API
+- Vite
+
+## 📚 What I Learned
+
+While building this project, I practiced:
+
+- Working with REST APIs in React
+- Using `fetch()` to retrieve external data
+- Managing component state with `useState`
+- Handling side effects with `useEffect`
+- Rendering lists using `.map()`
+- Passing data through props
+- Conditional rendering
+- Implementing pagination
+- Handling loading and error states
+- Building responsive layouts with CSS
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ssmp10/Gallery
