@@ -9,11 +9,11 @@ in a clean grid layout with pagination.
 
 ### Gallery
 
-![Image Gallery](./screenshots/gallery1.png)
+![Image Gallery](./screenshots/pic1.png)
 
 ### Pagination
 
-![Image Gallery Pagination](./screenshots/gallery2.png)
+![Image Gallery Pagination](./screenshots/pic2.png)
 
 
 ## ✨ Features
